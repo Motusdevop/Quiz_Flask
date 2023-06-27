@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/style_quiz.css">
+    <title>Викторина</title>
+</head>
+<body>
+    <h1>Ваш результат:</h1>
+    <div class="outer-div">
+        <h3>{{ right }} правильных ответов из {{ total }}</h3>
+    </div>
+    <a href="{{ url_for('index') }}" class="btn">В начало</a>
+</body>
+</html>
